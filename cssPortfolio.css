@@ -1,0 +1,78 @@
+body {
+    background-color:#210B2C;
+    color: #F3F3F3;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+nav {
+    background-color:#210B2C;
+    width: 65%;
+    height: 100%;
+}
+
+.mainSection {
+    display: flexbox;
+    align-items: flex-start;
+    background-color: #210B2C;
+    width: 55%;
+    height: 100%;
+}
+
+header {
+    display: flexbox;
+    flex-direction: column;
+    background-color: #210B2C;
+    color: #F3F3F3;
+    text-align: center;
+    font-family: 'Iceland', cursive;
+    font-size: 40px;
+    padding-bottom: 4%;
+   
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 4%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 8%;
+   
+}
+
+
+button {
+    background-color: #A097CA;
+    align-content: center;
+    color: #252424;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+h2 {
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
