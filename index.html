@@ -1,73 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="cssPortfolio.css">
+    <link rel="stylesheet" href="CSS\cssPortfolio.css">
 <title>Kristen Teter | UX Designer</title>
 </head>
 
 <body>
-    <div class="mainSection">
+<header> Hello. I'm Kristen Teter.</header>
+<img src="./Images/portfolioMain.png" alt="Picture of Kristen Teter" class="center">
     <nav>
-        <header> Hello. I'm Kristen Teter.</header>
-        <img src="./Images/portfolioMain.png" width="250px" height="200px" alt="Picture of Kristen Teter" class="center">
         <p> Good communication is at the core of every good product. <br> 
             <br>
             How can I help improve yours? </p>
-     <div class="buttonContainer"> </div>
-        <div class="mainButtons"> <button type="button"> Download My Resume</button> </div>
-        <br>
-        <div class="mainButtons"> <button type="button">Send Me An Email</button>
-        </div>
-        <br>
-        <div class="mainButtons"> <button type="button"> About Me</button></div> 
+
+<div class="buttonContainer"> 
+    <div class="mainButtons"> <button type="button"> Download My Resume</button> </div>
+    <br>
+    <div class="mainButtons"> <button type="button">Send Me An Email</button>
+    </div>
+    <br>
+    <div class="mainButtons"> <button type="button"> About Me</button></div> 
     </nav>
+</div>
     
-<section>
+<section class="myWork">
 <h1>My Work</h1>
 
-    <div> <img src="Images\LoCalApp.png" alt="Picture of LoCal App" height="35%" width="35%"> </div> <div class="localApp">
+<div class="workGrid"> 
+    <div class="localApp"> 
+        <div>
+            <img src="Images\LoCalApp.png" alt="Picture of LoCal App" height="35%" width="35%"> 
+        </div> 
             <h4>LoCal App: Local Advice on the Go</h4>
             <p> An travel app where you can get advice from verified locals.</p>
+            <button>View Project</button>
         </div>
-
-
-    <div> <img src="Images\USDeptofEd.png" alt="Picture of US Department of Education Redesign" height="35%" width="35%"> </div> <div class="deptEd">
+    
+    <div class="deptEd"> 
+        <div>
+            <img src="Images\USDeptofEd.png" alt="Picture of US Department of Education Redesign" height="35%" width="35%"> 
+        </div>
             <h4>U.S. Department of Education Redesign</h4>
             <p>A redesign solution for the U.S. Department of Education.</p> 
-        </div>
+            <button>View Project</button>
+    
+    </div>
 
-    <div> <img src="Images\COSI.png" alt="Picture of COSI Redesign" height="35%" width="35%"></div> <div>
+    <div class="cosi"> 
+        <div>
+            <img src="Images\COSI.png" alt="Picture of COSI Redesign" height="35%" width="35%">
+        </div>
             <h4>The COSI Conundrum: A Case Study</h4>
             <p>A redesign of the COSI website.</p>
-        </div>
+            <button>View Project</button>
+   
+    </div>
+</div>
 </section>
 
-<section>
+<h3>View All Projects</h3>
+<!--  My UX Skills section coded using CSS flex -->
+<section class="mySkills">
 <h1>My Skills</h1>
+<div class="flexContainer">
 
-<div>
-<img src="Images\communication.png" alt="Picture of Chat Bubbles" height="20%" width="20%">
+<div class="communication">
+<img src="Images\communication.png" alt="Picture of Chat Bubbles" height="100%" width="40%" class="communicationImage">
 <h2>Communication</h2>
 <p>My designs are made with communication at the top of mind. Understanding how a product works is essential for user satisfaction.</p>
 </div>
 
-<div>
-<img src="Images\interactiondesign.png" alt="Picture of interaction graphic" height="20%" width="20%">
+<div class="interactionDesign">
+<img src="Images\interactiondesign.png" alt="Picture of interaction graphic" height="100%" width="40%" class="interactionImage">
 <h2>Interaction Design</h2>
 <p>Interaction design is what I use in every one of my designs. I create human-centered digital experiences that make the user's life easier.</p>
 </div>
 
-<div> 
-<img src="Images\prototyping.png" alt="Picture of prototyping graphic" height="20%" width="20%">
+<div class="prototyping">
+<img src="Images\prototyping.png" alt="Picture of prototyping graphic" height="100%" width="40%" class="prototypingImage">
 <h2>Prototyping</h2>
 <p>I prototype my designs and test them on users who would likely use the digital product. Prototyping is important as it shows how a user will interact with your product.</p>
 </div>
-
+</div>
 </section>
 
 <section>
 <div class="recommendations">
-            <h1>Recommendations</h1>
+    <h1>Recommendations</h1>
             <p>"Kristen is a great communicator and is a great team player!" -Kellie May </p>
             <p>"Kristen is a great communicator and is a great team player!" -Kellie May </p>
             <p>"Kristen is a great communicator and is a great team player!" -Kellie May </p>
